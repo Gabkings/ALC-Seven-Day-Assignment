@@ -10,7 +10,7 @@ let createOption = (currency, target) => {
   option.innerText = currency;
   target.appendChild(option);
 };
-//get all currencies and fill the two select elements as options
+//get all currencies and fill both of the two select elements as options
 window.onload = () => {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
